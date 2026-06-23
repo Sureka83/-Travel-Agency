@@ -201,9 +201,10 @@ center img{
 }
 .card{
     width: 350px;
-    height: 300px;
+    height: 320px;
     margin-top: 40px;
     border-radius: 50px;
+
 }
 .d{
     border: 2px groove black;
