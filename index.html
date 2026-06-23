@@ -5,88 +5,263 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krish Travel Agency</title>
     <link rel="icon" href="images/Untitled design.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <nav class="nav">
-      <ul class="nav ul">
-        <video width="100px" autoplay muted loop class="v">
-            <source src="images/logo.png" type="video/mp4">
-        </video>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#destination">Destination</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#packages">Packages</a>
-          <a href="#contact">Contact</a>
-          <button class="bt" onclick="window.location.href='index.html'">
-          Book Now
-          </button>
-      </ul>
-  </nav>
-  <center id="home">
-    <div class="top">
-    <img src="images/su.jpg">
+  <nav class="navbar navbar-dark bg-dark fixed-top px-3">
+    <button class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark"
+         tabindex="-1"
+         id="offcanvasNavbar"
+         aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h4 class="offcanvas-title fw-bold"
+                id="offcanvasNavbarLabel">
+                KRISH AGENCY
+            </h4>
+            <button type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close">
+            </button>
+          </div>
+        <hr class="m-0">
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link py-3" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-3" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-3" href="#destination">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-3" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-3" href="#packages">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-3" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+            <div class="mt-4">
+                <a href="booknow.html" class="btn btn-outline-light w-100">
+                    Book Your Trip
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+  <center> 
+    <section id="home">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/su.jpg" class="im" alt="India to South Korea">
+    </div>
+    <div class="carousel-item">
+      <img src="images/ban.jpg" class="im" alt="Cherry Blossom">
+    </div>
+    <div class="carousel-item">
+      <img src="images/kpop.jpg" class="im" alt="K-Pop">
+    </div>
+    <div class="carousel-item">
+  <img src="images/banner1.jpg" class="im" alt="South Korea">
+</div>
+<div class="carousel-item">
+  <img src="images/kdrama.jpg" class="im" alt="K-Drama">
+</div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
+  </button>
     <h4 class="h4">Travel Beyond Expectations</h4>
     <p class="para">Explore South Korea with Confort, Elegance and Expert Guidance</p>
-    </div>
-    <div>
-    <h2 class="h2">Introduction</h2>
+<div><br><br><br>
+    <h2 class="he">Introduction</h2>
     <p class="p">
       Discover South Korea 🇰🇷 with Krish Agency, where timeless traditions meet modern luxury in perfect harmony. 
       From majestic palaces, serene temples, and historic villages that reflect centuries of rich heritage, to dazzling skylines and vibrant cities filled with innovation and style, every journey is crafted to feel extraordinary.
       Beyond the cities, peaceful mountains, scenic coastlines, and tranquil islands reveal the natural beauty of Korea. 
       With Krish Agency, every trip becomes a graceful blend of culture, elegance, and modern experiences turning your travel into an unforgettable memory.
     </p>
-    <img src="images/south.jpg" alt="South Korea">
-    </div>
+    <img src="images/south.jpg" style="border-radius: 50px;" alt="South Korea">
+    </div><br><br><br>
+    </section><hr style="width: 100%; height: 40px; background-color: rgb(13, 0, 255);"><br><br><br><br><br><br>
     <section id="about">
-    <h2 class="h2">About Us</h2>
-    <p class="p">
-        Krish Travel Agency offers distinguished travel experiences that celebrate the perfect harmony between South Korea's rich cultural traditions and contemporary luxury.
-        We create carefully curated journeys featuring historic landmarks, authentic cultural encounters, premium accommodations, and personalised services. 
-        Our goal is to provide every traveller with an experience that is elegant, meaningful, and truly unforgettable.
-    </p>
-    <img src="images/Untitled design.png" class="img" alt="Logo">
-    <h2 class="h2">Mission & Vision</h2>
-    <p class="p">
-      Our mission is to offer world class travel experiences that combine tradition, modern lifestyle, and comfort.
-      We aim to make every journey inspiring, enjoyable, and stress free for every traveler.
-    </p>
-    <h2 class="h2">Our Services</h2>
-    <p class="p">
-      We provide curated travel experiences including city tours, cultural exploration, luxury travel packages, and nature escapes. 
-      Every trip is designed with care, comfort, and quality in mind.
-    </p>
-    <h2 class="h2">Destinations We Cover</h2>
-    <p class="p">
-      Explore the beauty of South Korea through iconic destinations like Seoul, Busan, Daegu, Jeju Island. 
-      From historic landmarks to modern cities and natural wonders, every place offers a unique experience.
-    </p>
-    <h2 class="h2">Why Choose Krish Agency</h2>
-    <p class="p">
-      We focus on providing trusted, safe, and premium travel experiences. 
-      Our services are designed to give you comfort, personalized attention, and unforgettable memories at every step of your journey.
-    </p>
-    <h2 class="h2">Customer Experience</h2>
-    <p class="p">
-      With Krish Agency, you can expect smooth planning, reliable support, and carefully crafted itineraries. 
-      We ensure every traveler enjoys a comfortable and memorable journey without stress.
-    </p> 
-    <h2 class="h2">Why choose South Korea</h2>
-    <p class="p">
-        South Korea is a destination where centuries-old traditions exist alongside modern innovation.
-        Visitors can explore magnificent royal palaces, traditional Hanok villages, ancient temples, and cultural heritage sites while enjoying world-class hospitality, luxury shopping, and vibrant city life. 
-        This unique blend of tradition, culture, and sophistication makes South Korea an exceptional destination for travellers seeking both authenticity and comfort.
-    </p>
-    <h2 class="h2">Start Your Journey</h2>
-    <p class="p">
-      Begin your dream travel experience with Krish Agency today. 
-      Let us turn your trip into a beautiful story filled with culture, luxury, and unforgettable moments.
-    </p>
-    </section>
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne"
+          aria-expanded="false"
+          aria-controls="flush-collapseOne">
+          About Us
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Krish Travel Agency offers distinguished travel experiences that celebrate the perfect harmony between South Korea's rich cultural traditions and contemporary luxury.
+          We create carefully curated journeys featuring historic landmarks, authentic cultural encounters, premium accommodations, and personalised services.
+          Our goal is to provide every traveller with an experience that is elegant, meaningful, and truly unforgettable.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo"
+          aria-expanded="false"
+          aria-controls="flush-collapseTwo">
+          Mission & Vision
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Our mission is to offer world-class travel experiences that combine tradition, modern lifestyle, and comfort.
+          We aim to make every journey inspiring, enjoyable, and stress-free for every traveler.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree"
+          aria-expanded="false"
+          aria-controls="flush-collapseThree">
+          Our Services
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          We provide curated travel experiences including city tours, cultural exploration, luxury travel packages, and nature escapes.
+          Every trip is designed with care, comfort, and quality in mind.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseFour"
+          aria-expanded="false"
+          aria-controls="flush-collapseFour">
+          Destinations We Cover
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Explore the beauty of South Korea through iconic destinations like Seoul, Busan, Daegu, and Jeju Island.
+          From historic landmarks to modern cities and natural wonders, every place offers a unique experience.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseFive"
+          aria-expanded="false"
+          aria-controls="flush-collapseFive">
+          Why Choose Krish Agency
+        </button>
+      </h2>
+      <div id="flush-collapseFive" class="accordion-collapse collapse"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          We focus on providing trusted, safe, and premium travel experiences.
+          Our services are designed to give you comfort, personalized attention, and unforgettable memories at every step of your journey.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseSix"
+          aria-expanded="false"
+          aria-controls="flush-collapseSix">
+          Customer Experience
+        </button>
+      </h2>
+      <div id="flush-collapseSix" class="accordion-collapse collapse"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          We are committed to delivering exceptional customer service, ensuring every traveler enjoys a smooth, comfortable, and memorable journey from start to finish.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseSeven"
+          aria-expanded="false"
+          aria-controls="flush-collapseSeven">
+          Why Choose South Korea
+        </button>
+      </h2>
+      <div id="flush-collapseSeven" class="accordion-collapse collapse"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          South Korea is a destination where centuries-old traditions exist alongside modern innovation.
+          Visitors can explore royal palaces, traditional Hanok villages, ancient temples, and cultural heritage sites while enjoying world-class hospitality and entertainment.
+          This unique blend of tradition and modernity makes South Korea an exceptional destination.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseEight"
+          aria-expanded="false"
+          aria-controls="flush-collapseEight">
+          Start Your Journey
+        </button>
+      </h2>
+      <div id="flush-collapseEight" class="accordion-collapse collapse"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Begin your dream travel experience with Krish Agency today.
+          Let us turn your trip into a beautiful story filled with culture, luxury, and unforgettable moments.
+        </div>
+      </div>
+    </div>
+  </div><br><br><br>
+</section><hr style="width: 100%; height: 40px; background-color: rgb(13, 0, 255);"><br><br>
     <section id="destination">
-        <h2 class="h2">Destination</h2>
+        <h2 class="h2">Destination</h2><br><br>
         <div class="map">
         <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314071.259140324!2d125.23266392487285!3d35.7901684185686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356455ebcb11ba9b%3A0x91249b00ba88db4b!2sSouth%20Korea!5e0!3m2!1sen!2sin!4v1781793408657!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" padding>
@@ -140,7 +315,8 @@
               </p>
             </div>
           </div>
-        </section>
+        </section><br><br><br><br><br><br>
+        <hr style="width: 100%; height: 40px; background-color: rgb(13, 0, 255);"><br><br>
     <section id="gallery">
     <div>
     <h2 class="h2">
@@ -162,10 +338,10 @@
     <a href="gallery.html" target="_blank" class="btn">
         Open Gallery
     </a>
-</section><br><br><br>
+</section><br><br><br><hr style="width: 100%; height: 40px; background-color: rgb(13, 0, 255);">
 <section id="packages"> 
-  <h2 style="font-family: Arial, Helvetica, sans-serif; font-size: xx-large; font-weight: bolder;">Our Packages to visit South Korea</h2><br><br>
-  <table class="table">
+  <h2 class="tab">Our Packages to visit South Korea</h2><br><br>
+  <table class="tables">
     <tr>
       <th>Packages</th>
       <th>Basic</th>
@@ -240,5 +416,6 @@
     <p class="pa">📧 Email: kta@gmail.com</p>
     <footer style="text-align: center;">@Copyright 2026 by Sureka</footer>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

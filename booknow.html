@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+</head>
+<body style="margin:0; background-color:wheat;">
+    <center>
+        <h1>Booking travel to South Korea</h1>
+        <form style="width:450px; background-color:white; padding:30px; border:2px solid black; border-radius:10px; margin:30px auto; text-align:left;">
+            <label for="name" style="font-weight:bold;">Name</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="password" style="font-weight:bold;">Password</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="email" style="font-weight:bold;">Email</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone" style="font-weight:bold;">Phone Number</label>
+            <input type="tel" id="phone" name="phone" maxlength="10" required><br><br>
+            <label for="Age" style="font-weight:bold;">Gender</label>
+            <input type="radio"  name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+            <label for="package" style="font-weight:bold;">Packages</label>
+            <input type="radio" id="package1" name="package" value="premium" required>
+            <label for="package1">Premium</label>
+            <input type="radio" id="payment2" name="package" value="gold" required>
+            <label for="package2">Gold</label>
+            <input type="radio" id="payment3" name="package" value="platinum" required>
+            <label for="package3">Platinum</label><br><br>
+            <center>
+                <a href="upi://pay?pa=surekamariappan@okaxis&pn=KR%20Agency&cu=INR">
+                <button style="background-color: rgb(255, 190, 144); border-color: black; border-radius:10px; font-size:medium; padding:10px 20px; cursor:pointer; color:black;">
+                Payment
+                </button>
+                </a>
+            </center>
+            <label for="feedback" style="font-weight:bold;">Address</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+            <center>
+            <input type="submit" value="Submit" style="background-color: chocolate; border-color: black; border-radius:10px; font-size:medium;padding:10px 20px; cursor:pointer; color:white;">
+            </center>
+        </form>
+        <footer>
+            @copyright 2026 by Sureka.
+        </footer><br><br>
+    </center>
+</body>
+</html>
