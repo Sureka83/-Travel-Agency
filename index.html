@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- nav bar -->
   <nav class="navbar navbar-dark bg-dark fixed-top px-3">
     <button class="navbar-toggler border-0"
             type="button"
@@ -62,6 +63,7 @@
         </div>
     </div>
 </nav>
+  <!-- home -->
   <center> 
     <section id="home">
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -103,6 +105,7 @@
     <img src="images/south.jpg" style="border-radius: 50px;" alt="South Korea">
     </div><br><br><br>
     </section><hr style="width: 100%; height: 40px; background-color: rgb(13, 0, 255);"><br><br><br><br><br><br>
+  <!-- about -->
     <section id="about">
   <div class="accordion accordion-flush" id="accordionFlushExample">
 
@@ -253,6 +256,7 @@
     </div>
   </div><br><br><br>
 </section><hr style="width: 100%; height: 40px; background-color: rgb(13, 0, 255);"><br><br>
+  <!-- destination -->
     <section id="destination">
         <h2 class="h2">Destination</h2><br><br>
         <div class="map">
@@ -268,9 +272,15 @@
                 Seoul
               </h3>
               <p class="c">
-                Experience the perfect harmony of tradition and luxury in Seoul.
-                Explore grand palaces, charming Hanok villages, and modern elegancein one of Asia's most captivating cities.
+                From panoramic hilltops to lively night streets, Daegu invites every traveler to experience South Korea through elegance, adventure, and authentic local charm.
               </p>
+              <center>
+               <button class="btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#seoulModal">
+                  Read More
+              </button>
+              </center>
             </div>
           </div>
           <div class="d">
@@ -282,6 +292,13 @@
               <p class="c">
                 Step into Busan, a vibrant coastal paradise where rich Korean heritage, golden beaches, and a modern skyline create unforgettable experiences.
               </p>
+              <center>
+              <button class="btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#busanModal">
+                    Read More
+              </button>
+              </center>
             </div>
           </div>
           <div class="d">
@@ -291,9 +308,15 @@
                 Daegu
               </h3>
               <p class="c">
-                A city embraced by mountains, where peaceful nature meets vibrant urban life and colourful streets filled with Korean culture.
-                Daegu blends street food, art lanes, and modern charm into a calm yet unforgettable experience.
+                From panoramic hilltops to lively night streets, Daegu invites every traveler to experience South Korea through elegance, adventure, and authentic local charm.
               </p>
+              <center>
+              <button class="btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#daeguModal">
+                    Read More
+              </button>
+              </center>
             </div>
           </div>
           <div class="d">
@@ -303,13 +326,20 @@
                 Jeju Island
               </h3>
               <p class="c">
-                A dreamy island where volcanic cliffs meet endless blue seas and nature breathes in every corner.
-                Jeju Island is a peaceful escape of sunrises, waterfalls, and untouched beauty.
+                From volcanic landscapes to crystal-clear coastlines, Jeju Island invites every traveler to discover South Korea through serenity, nature, and timeless beauty.
               </p>
+              <center>
+              <button class="btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#jejuModal">
+                    Read More
+              </button>
+              </center>
             </div>
           </div>
         </section><br><br><br><br><br><br>
         <hr style="width: 100%; height: 40px; background-color: rgb(13, 0, 255);"><br><br>
+  <!-- gallery -->
     <section id="gallery">
     <div>
     <h2 class="h2">
@@ -332,6 +362,7 @@
         Open Gallery
     </a>
 </section><br><br><br><hr style="width: 100%; height: 40px; background-color: rgb(13, 0, 255);">
+  <!-- packages -->
 <section id="packages"> 
   <h2 class="tab">Our Packages to visit South Korea</h2><br><br>
   <table class="tables">
@@ -400,14 +431,279 @@
     </tr>
   </table>
 </section>
-  </center><br><br><hr>
+  </center><br><br><hr style="width: 100%; height: 40px; background-color: rgb(13, 0, 255);">
+  <!-- contact -->
   <section id="contact">
     <h2 class="pa">Contact Us</h2>
     <p class="pa">📍 Address: Tirunelveli, Tamil Nadu</p>
     <p class="pa">📞 Phone: +91 9876543210</p>
+    <a href="tel:9363487843">phone</a>
     <p class="pa">📧 Email: kta@gmail.com</p>
     <footer style="text-align: center;">@Copyright 2026 by Sureka</footer>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- seoul modal -->
+  <div class="modal fade" id="seoulModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Seoul Attractions</h5>
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="modal">
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img src="images/seoul/Gyeongbokgung Palace.jpg"
+                 class="image">
+            <h4 class="va">Gyeongbokgung Palace</h4>
+            <p class="mt-2">
+               Built in 1395, this is the largest of the Five Grand Palaces of the Joseon Dynasty. 
+               Rent a traditional hanbok (Korean clothing) to gain free entry and wander through the stunning grounds and throne halls.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/seoul/Bukchon Hanok Village,.jpg"
+                 class="image">
+                 <h4 class="va">Bukchon Hanok Village</h4>
+            <p class="mt-2">
+               Located between the palaces, this historic residential neighborhood features hundreds of beautifully preserved hanoks 
+               (traditional Korean houses) offering a glimpse into 600 years of Seoul's history.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/seoul/museum.jpg"
+                 class="image">
+                 <h4 class="va">Museum</h4>
+            <p class="mt-2">
+              Discover Korea's fascinating history and cultural heritage at the National Museum of Korea. 
+              Home to priceless artifacts, ancient treasures, and immersive exhibitions, 
+              it offers visitors an unforgettable journey through the nation's past and artistic achievements.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/seoul/myeongdong.jpg"
+                 class="image">
+                 <h4 class="va">Myeongdong Shopping Street</h4>
+            <p class="mt-2">
+               A bustling neighborhood globally renowned for its Korean skincare and cosmetic boutiques. 
+               It's also famous for its vibrant night markets offering delicious local street food.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/seoul/n-seoul.jpg"
+                 class="image">
+                 <h4 class="va">N Seoul Tower</h4>
+            <p class="mt-2">
+               Perched on Namsan Mountain, this iconic landmark offers panoramic, 360-degree views of the sprawling city skyline. 
+               It's a fantastic spot for sunset and includes a romantic "lock, love, and leave" fence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- busan modal -->
+<div class="modal fade" id="busanModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Busan Attractions</h5>
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="modal">
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img src="images/busan/Busan Air Cruise.jpg"
+                 class="image">
+                 <h4 class="va">Busan Air Cruise</h4>
+            <p class="mt-2">
+              Soar above the stunning coastline of Busan and enjoy breathtaking ocean views, modern cable car rides, 
+              and unforgettable sightseeing experiences at Songdo Beach
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/busan/gamcheon village.jpg"
+                 class="image">
+                 <h4 class="va">Gamcheon Village</h4>
+            <p class="mt-2">
+              Discover Busan's most colorful destination, where vibrant hillside homes, artistic murals, charming cafés,
+              and panoramic city views come together to create an unforgettable cultural experience.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/busan/gwangandaegyo.jpg"
+                 class="image">
+                 <h4 class="va">Gwangalli Beach & Gwangan Bridge</h4>
+            <p class="mt-2">
+              Experience the beauty of Busan's vibrant coastline, where golden sands, stunning ocean views, 
+              and the dazzling lights of Gwangan Bridge create an unforgettable seaside destination.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/busan/haedong.jpg"
+                 class="image">
+                 <h4 class="va">Haedong Yonggungsa Temple</h4>
+            <p class="mt-2">
+              Discover serenity where ancient tradition meets the endless sea. 
+              Perched along Busan's dramatic coastline, Haedong Yonggungsa Temple offers a unique blend of spiritual beauty and breathtaking ocean views.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/busan/haeundae beach.jpg"
+                 class="image">
+                 <h4 class="va">Haeundae Beach</h4>
+            <p class="mt-2">
+              Experience the vibrant charm of Busan's most famous beach. With its golden sands, refreshing sea breeze, and stunning coastal views, 
+              Haeundae Beach is the perfect destination to relax, explore, and enjoy the beauty of Korea's coastline.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- daegu modal -->
+<div class="modal fade" id="daeguModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Daegu Attractions</h5>
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="modal">
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img src="images/daegu/83.jpg"
+                 class="image">
+                 <h4 class="va">83 Tower</h4>
+            <p class="mt-2">
+              Daegu's iconic observation tower offering breathtaking panoramic city views, dazzling nightscapes,
+              and a perfect vantage point to experience the beauty of Daegu from above.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/daegu/apsan.jpg"
+                 class="image">
+                 <h4 class="va">Apsan Park</h4>
+            <p class="mt-2">
+              Escape into nature with panoramic city views, scenic hiking trails, 
+              and a picturesque cable car journey above Daegu.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/daegu/kim gwangseok.jpg"
+                 class="image">
+                 <h4 class="va">Kim GwangSeok Street</h4>
+            <p class="mt-2">
+              A vibrant mural alley in Daegu where art, music, and nostalgia come together through colorful street paintings, 
+              sculptures, and cozy cafés inspired by Korea's beloved folk singer.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/daegu/palgongsan.jpg"
+                 class="image">
+                 <h4 class="va">Palgongsan Mountain</h4>
+            <p class="mt-2">
+              Discover stunning mountain vistas, peaceful hiking trails, 
+              and centuries-old temples in one of Daegu's most beautiful natural destinations.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/daegu/seomun market.jpg"
+                 class="image">
+                 <h4 class="va">Seomun Market</h4>
+            <p class="mt-2">
+              Experience the heart of Daegu through bustling market streets filled with delicious street food, 
+              traditional goods, local crafts, and vibrant cultural charm.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Jeju island -->
+<div class="modal fade" id="jejuModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Jeju Attractions</h5>
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="modal">
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img src="images/jeju/hallasan.jpg"
+                 class="image">
+                 <h4 class="va">Hallasan National Park</h4>
+            <p class="mt-2">
+              Explore South Korea's highest peak through scenic hiking trails, stunning volcanic landscapes,
+              and unforgettable panoramic views of Jeju Island.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/jeju/hamdeok beach.jpg"
+                 class="image">
+                 <h4 class="va">Hamdeok Beach</h4>
+            <p class="mt-2">
+              Relax on pristine white sands and enjoy crystal-clear turquoise waters at 
+              one of Jeju's most stunning coastal destinations.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/jeju/jeju waterfall.jpg"
+                 class="image">
+                 <h4 class="va">Cheonjiyeon Waterfall</h4>
+            <p class="mt-2">
+              Discover the beauty of Jeju's iconic waterfall, where crystal-clear waters 
+              cascade through lush greenery, creating a peaceful and refreshing natural escape.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/jeju/manjaggul cave.jpg"
+                 class="image">
+                 <h4 class="va">Manjanggul Cave</h4>
+            <p class="mt-2">
+              Explore one of the world's longest lava tubes, featuring spectacular rock formations 
+              and a fascinating glimpse into Jeju's volcanic heritage.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/jeju/seongsan.jpg"
+                 class="image">
+                 <h4 class="va">Seongsan Ilchulbong</h4>
+            <p class="mt-2">
+              Witness spectacular sunrise views from a UNESCO-listed volcanic 
+              peak surrounded by dramatic coastal landscapes and natural beauty.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/jeju/udo.jpg"
+                  class="image">
+                  <h4 class="va">Udo Island</h4>
+            <p class="mt-2">
+              Escape to a picturesque island paradise featuring stunning coastlines, 
+              pristine beaches, and breathtaking ocean views.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </html>
